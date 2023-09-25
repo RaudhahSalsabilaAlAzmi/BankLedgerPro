@@ -1,0 +1,26 @@
+.container {
+    padding-top: 50px;
+    .table {
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+}
+
+.m {
+    margin-right: 2px;
+}
+
+.d-flex.justify-content-end {
+    float: right;
+}
+
+.active>.page-link, .page-link.active {
+    background-color: #212529 !important;
+    border-color: #212529 !important;
+    color: white !important;
+}
+
+.page-link {
+    color: #212529 !important;
+}

@@ -1,0 +1,26 @@
+/* Beranda.scss */
+
+.beranda-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Background color for the container */
+  padding: 20px; /* Add some padding for better readability */
+
+  .beranda-title {
+    text-align: center;
+    font-size: 2.5rem; /* Increase the title font size */
+    color: #333; /* Title text color */
+    margin-bottom: 10px; /* Add spacing below the title */
+  }
+
+  .beranda-description {
+    text-align: center;
+    font-size: 1.2rem; /* Adjust the font size for the description */
+    color: #666; /* Description text color */
+    max-width: 800px; /* Set a maximum width for the content */
+    margin-top: 20px; /* Add spacing between the title and paragraph */
+  }
+}
